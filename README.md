@@ -45,7 +45,7 @@ than the saturation throughput.
 
 ## 3. Simulator and Simulation
 ### A. The experimental setup
-1. Study Chapter 19 Allocation, in particular, 19.3 on iSLIP allocation algorithm. Explain
-how iSLIP algorithm works.
+**1. Study Chapter 19 Allocation, in particular, 19.3 on iSLIP allocation algorithm. Explain
+how iSLIP algorithm works.**
 
 
