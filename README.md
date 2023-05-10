@@ -1,10 +1,10 @@
 # IL2236_project
 
-**1. What problems you can detect from this setup? Why?**
+## 1. What problems you can detect from this setup? Why?
 
 Input count&timing shoud be set before the source queue buffer because the waiting time for buffer to enter the networkshould be considered.
 
-**2. (Performance evaluation) Answer the following questions:**
+## 2. (Performance evaluation) Answer the following questions:
 
 **a) Explain the differences of open-loop and closed-loop measurements.**
 
@@ -42,5 +42,10 @@ due to resource dependencies (VC allocation
 dependency for deadlock freedom, credit
 availability etc.). So the Topology bound is larger than the routing bound, which is larger
 than the saturation throughput.
+
+## 3. Simulator and Simulation
+### A. The experimental setup
+1. Study Chapter 19 Allocation, in particular, 19.3 on iSLIP allocation algorithm. Explain
+how iSLIP algorithm works.
 
 
