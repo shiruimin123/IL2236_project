@@ -32,7 +32,7 @@ graph, specifically, why the Topology bound is larger than the routing bound, wh
 than the saturation throughput.**
 
 
-![1](https://github.com/shiruimin123/IL2236_project/assets/106392919/9a06a76d-1d01-48ae-b87e-c3bc5b4c129d)
+
 
 Topology throughput bound is ideal, assuming
 random traffic with perfect flow control (no idle
@@ -48,4 +48,52 @@ than the saturation throughput.
 **1. Study Chapter 19 Allocation, in particular, 19.3 on iSLIP allocation algorithm. Explain
 how iSLIP algorithm works.**
 
+iSLIP is a separable allocation method that uses round-robin arbiters and updates
+the priority of each arbiter only when that arbiter generates a winning grant. iSLIP can
+be used either in a single pass, or as an iterative matching algorithm. By rotating the
+winning arbiters, iSLIP acts to stagger the priority of the input arbiters, resulting in
+fewer conflicts at the output stage. The update of a priority only occurs when an
+arbitration results in a grant and, as in a round-robin arbiter, priorities are updated
+so that a winning request has the lowest priority in the next round.
+
+**2. Study the four rouging algorithms: DOR standing for dimension-order routing, ROMM
+for randomized minimal algorithm, VAL for Valiant’s randomized algorithm, and MAD
+for minimal-adaptive routing algorithm. Explain the routing algorithms, namely, DOR,
+ROMM, VAL and MAD.**
+
+**DOR standing for dimension-order routing algorithm:** the digits of
+the destination address, interpreted as a radix-k number, are used one at a time to
+direct the routing. Rather than selecting an output port at a given stage, however,
+each digit is used to select a node in a given dimension. for example, consider a 2-D mesh. Within the first dimension x,
+a packet traveling in the +x direction can only wait on a channel in the +x, +y, and
+−y directions. Similarly, an −x packet waits only on the −x, +y, and −y directions.
+In the second dimension, a +y packet can only wait on other +y channels and a −y
+packet waits only on −y. 
+
+**ROMM for randomized minimal algorithm:** attempts to achieve the load balance of randomized rout-
+ing without giving up the locality by restricting routes to be minimal (shortest path)
+
+**VAL for Valiant’s randomized algorithm:** load can be balanced for any traffic pattern on almost any topology 1 using Valiant’s
+algorithm, in which a packet sent from s to d is first sent from s to a randomly
+chosen intermediate terminal node x and then from x to d.
+While a non-minimal oblivious routing algorithm may choose any path in $R'_{xy}$ to 
+route a packet from x to y, minimal oblivious routing restricts its choice to paths in
+$R_{xy}$ . For hierarchical topologies, minimal oblivious routing works extremely well --
+it gives good load balance while preserving locality.
+
+**MAD for minimal-adaptive routing algorithm:**  chooses among the minimal routes from
+source s to destination d. At each hop a routing function
+generates a productive output
+vector that identifies which
+output channels of the current
+node will move the packet
+closer to its destination. Network state is then used to
+select one of these channels
+for the next hop. It is good at locally balancing load but poor at globally balancing
+load.
+
+### B. Section 25.1, Routing experiments:
+
+**1. Validate the latency performance of the four algorithms by re-producing at least two of
+the five figures, namely, Figure 25.1 and 25.2. 25.3, 25.4, and 25.5.**
 
