@@ -1,0 +1,143 @@
+../../IL2236_project/verify/figure1/ROMM/.0005.txt:====== Overall Traffic Statistics ======
+../../IL2236_project/verify/figure1/ROMM/.0005.txt-====== Traffic class 0 ======
+../../IL2236_project/verify/figure1/ROMM/.0005.txt-Packet latency average = 47.125 (1 samples)
+--
+../../IL2236_project/verify/figure1/ROMM/.0010.txt:====== Overall Traffic Statistics ======
+../../IL2236_project/verify/figure1/ROMM/.0010.txt-====== Traffic class 0 ======
+../../IL2236_project/verify/figure1/ROMM/.0010.txt-Packet latency average = 47.0417 (1 samples)
+--
+../../IL2236_project/verify/figure1/ROMM/.0015.txt:====== Overall Traffic Statistics ======
+../../IL2236_project/verify/figure1/ROMM/.0015.txt-====== Traffic class 0 ======
+../../IL2236_project/verify/figure1/ROMM/.0015.txt-Packet latency average = 50.217 (1 samples)
+--
+../../IL2236_project/verify/figure1/ROMM/.0020.txt:====== Overall Traffic Statistics ======
+../../IL2236_project/verify/figure1/ROMM/.0020.txt-====== Traffic class 0 ======
+../../IL2236_project/verify/figure1/ROMM/.0020.txt-Packet latency average = 50.3519 (1 samples)
+--
+../../IL2236_project/verify/figure1/ROMM/.0025.txt:====== Overall Traffic Statistics ======
+../../IL2236_project/verify/figure1/ROMM/.0025.txt-====== Traffic class 0 ======
+../../IL2236_project/verify/figure1/ROMM/.0025.txt-Packet latency average = 51.2875 (1 samples)
+--
+../../IL2236_project/verify/figure1/ROMM/.0030.txt:====== Overall Traffic Statistics ======
+../../IL2236_project/verify/figure1/ROMM/.0030.txt-====== Traffic class 0 ======
+../../IL2236_project/verify/figure1/ROMM/.0030.txt-Packet latency average = 52.8832 (1 samples)
+--
+../../IL2236_project/verify/figure1/ROMM/.0035.txt:====== Overall Traffic Statistics ======
+../../IL2236_project/verify/figure1/ROMM/.0035.txt-====== Traffic class 0 ======
+../../IL2236_project/verify/figure1/ROMM/.0035.txt-Packet latency average = 53.2144 (1 samples)
+--
+../../IL2236_project/verify/figure1/ROMM/.0040.txt:====== Overall Traffic Statistics ======
+../../IL2236_project/verify/figure1/ROMM/.0040.txt-====== Traffic class 0 ======
+../../IL2236_project/verify/figure1/ROMM/.0040.txt-Packet latency average = 53.6286 (1 samples)
+--
+../../IL2236_project/verify/figure1/ROMM/.0045.txt:====== Overall Traffic Statistics ======
+../../IL2236_project/verify/figure1/ROMM/.0045.txt-====== Traffic class 0 ======
+../../IL2236_project/verify/figure1/ROMM/.0045.txt-Packet latency average = 55.4462 (1 samples)
+--
+../../IL2236_project/verify/figure1/ROMM/.0050.txt:====== Overall Traffic Statistics ======
+../../IL2236_project/verify/figure1/ROMM/.0050.txt-====== Traffic class 0 ======
+../../IL2236_project/verify/figure1/ROMM/.0050.txt-Packet latency average = 56.0058 (1 samples)
+--
+../../IL2236_project/verify/figure1/ROMM/.0055.txt:====== Overall Traffic Statistics ======
+../../IL2236_project/verify/figure1/ROMM/.0055.txt-====== Traffic class 0 ======
+../../IL2236_project/verify/figure1/ROMM/.0055.txt-Packet latency average = 58.9718 (1 samples)
+--
+../../IL2236_project/verify/figure1/ROMM/.0060.txt:====== Overall Traffic Statistics ======
+../../IL2236_project/verify/figure1/ROMM/.0060.txt-====== Traffic class 0 ======
+../../IL2236_project/verify/figure1/ROMM/.0060.txt-Packet latency average = 59.5097 (1 samples)
+--
+../../IL2236_project/verify/figure1/ROMM/.0065.txt:====== Overall Traffic Statistics ======
+../../IL2236_project/verify/figure1/ROMM/.0065.txt-====== Traffic class 0 ======
+../../IL2236_project/verify/figure1/ROMM/.0065.txt-Packet latency average = 62.6631 (1 samples)
+--
+../../IL2236_project/verify/figure1/ROMM/.0070.txt:====== Overall Traffic Statistics ======
+../../IL2236_project/verify/figure1/ROMM/.0070.txt-====== Traffic class 0 ======
+../../IL2236_project/verify/figure1/ROMM/.0070.txt-Packet latency average = 63.6915 (1 samples)
+--
+../../IL2236_project/verify/figure1/ROMM/.0075.txt:====== Overall Traffic Statistics ======
+../../IL2236_project/verify/figure1/ROMM/.0075.txt-====== Traffic class 0 ======
+../../IL2236_project/verify/figure1/ROMM/.0075.txt-Packet latency average = 64.7705 (1 samples)
+--
+../../IL2236_project/verify/figure1/ROMM/.0080.txt:====== Overall Traffic Statistics ======
+../../IL2236_project/verify/figure1/ROMM/.0080.txt-====== Traffic class 0 ======
+../../IL2236_project/verify/figure1/ROMM/.0080.txt-Packet latency average = 68.2967 (1 samples)
+--
+../../IL2236_project/verify/figure1/ROMM/.0085.txt:====== Overall Traffic Statistics ======
+../../IL2236_project/verify/figure1/ROMM/.0085.txt-====== Traffic class 0 ======
+../../IL2236_project/verify/figure1/ROMM/.0085.txt-Packet latency average = 68.9665 (1 samples)
+--
+../../IL2236_project/verify/figure1/ROMM/.0090.txt:====== Overall Traffic Statistics ======
+../../IL2236_project/verify/figure1/ROMM/.0090.txt-====== Traffic class 0 ======
+../../IL2236_project/verify/figure1/ROMM/.0090.txt-Packet latency average = 69.9826 (1 samples)
+--
+../../IL2236_project/verify/figure1/ROMM/.0095.txt:====== Overall Traffic Statistics ======
+../../IL2236_project/verify/figure1/ROMM/.0095.txt-====== Traffic class 0 ======
+../../IL2236_project/verify/figure1/ROMM/.0095.txt-Packet latency average = 73.8688 (1 samples)
+--
+../../IL2236_project/verify/figure1/ROMM/.0100.txt:====== Overall Traffic Statistics ======
+../../IL2236_project/verify/figure1/ROMM/.0100.txt-====== Traffic class 0 ======
+../../IL2236_project/verify/figure1/ROMM/.0100.txt-Packet latency average = 76.2984 (1 samples)
+--
+../../IL2236_project/verify/figure1/ROMM/.0105.txt:====== Overall Traffic Statistics ======
+../../IL2236_project/verify/figure1/ROMM/.0105.txt-====== Traffic class 0 ======
+../../IL2236_project/verify/figure1/ROMM/.0105.txt-Packet latency average = 77.3412 (1 samples)
+--
+../../IL2236_project/verify/figure1/ROMM/.0110.txt:====== Overall Traffic Statistics ======
+../../IL2236_project/verify/figure1/ROMM/.0110.txt-====== Traffic class 0 ======
+../../IL2236_project/verify/figure1/ROMM/.0110.txt-Packet latency average = 80.2809 (1 samples)
+--
+../../IL2236_project/verify/figure1/ROMM/.0115.txt:====== Overall Traffic Statistics ======
+../../IL2236_project/verify/figure1/ROMM/.0115.txt-====== Traffic class 0 ======
+../../IL2236_project/verify/figure1/ROMM/.0115.txt-Packet latency average = 86.0216 (1 samples)
+--
+../../IL2236_project/verify/figure1/ROMM/.0120.txt:====== Overall Traffic Statistics ======
+../../IL2236_project/verify/figure1/ROMM/.0120.txt-====== Traffic class 0 ======
+../../IL2236_project/verify/figure1/ROMM/.0120.txt-Packet latency average = 86.7089 (1 samples)
+--
+../../IL2236_project/verify/figure1/ROMM/.0125.txt:====== Overall Traffic Statistics ======
+../../IL2236_project/verify/figure1/ROMM/.0125.txt-====== Traffic class 0 ======
+../../IL2236_project/verify/figure1/ROMM/.0125.txt-Packet latency average = 92.1295 (1 samples)
+--
+../../IL2236_project/verify/figure1/ROMM/.0130.txt:====== Overall Traffic Statistics ======
+../../IL2236_project/verify/figure1/ROMM/.0130.txt-====== Traffic class 0 ======
+../../IL2236_project/verify/figure1/ROMM/.0130.txt-Packet latency average = 93.5025 (1 samples)
+--
+../../IL2236_project/verify/figure1/ROMM/.0135.txt:====== Overall Traffic Statistics ======
+../../IL2236_project/verify/figure1/ROMM/.0135.txt-====== Traffic class 0 ======
+../../IL2236_project/verify/figure1/ROMM/.0135.txt-Packet latency average = 99.7013 (1 samples)
+--
+../../IL2236_project/verify/figure1/ROMM/.0140.txt:====== Overall Traffic Statistics ======
+../../IL2236_project/verify/figure1/ROMM/.0140.txt-====== Traffic class 0 ======
+../../IL2236_project/verify/figure1/ROMM/.0140.txt-Packet latency average = 102.829 (1 samples)
+--
+../../IL2236_project/verify/figure1/ROMM/.0145.txt:====== Overall Traffic Statistics ======
+../../IL2236_project/verify/figure1/ROMM/.0145.txt-====== Traffic class 0 ======
+../../IL2236_project/verify/figure1/ROMM/.0145.txt-Packet latency average = 119.89 (1 samples)
+--
+../../IL2236_project/verify/figure1/ROMM/.0150.txt:====== Overall Traffic Statistics ======
+../../IL2236_project/verify/figure1/ROMM/.0150.txt-====== Traffic class 0 ======
+../../IL2236_project/verify/figure1/ROMM/.0150.txt-Packet latency average = 131.379 (1 samples)
+--
+../../IL2236_project/verify/figure1/ROMM/.0155.txt:====== Overall Traffic Statistics ======
+../../IL2236_project/verify/figure1/ROMM/.0155.txt-====== Traffic class 0 ======
+../../IL2236_project/verify/figure1/ROMM/.0155.txt-Packet latency average = 127.838 (1 samples)
+--
+../../IL2236_project/verify/figure1/ROMM/.0160.txt:====== Overall Traffic Statistics ======
+../../IL2236_project/verify/figure1/ROMM/.0160.txt-====== Traffic class 0 ======
+../../IL2236_project/verify/figure1/ROMM/.0160.txt-Packet latency average = 140.944 (1 samples)
+--
+../../IL2236_project/verify/figure1/ROMM/.0165.txt:====== Overall Traffic Statistics ======
+../../IL2236_project/verify/figure1/ROMM/.0165.txt-====== Traffic class 0 ======
+../../IL2236_project/verify/figure1/ROMM/.0165.txt-Packet latency average = 165.653 (1 samples)
+--
+../../IL2236_project/verify/figure1/ROMM/.0170.txt:====== Overall Traffic Statistics ======
+../../IL2236_project/verify/figure1/ROMM/.0170.txt-====== Traffic class 0 ======
+../../IL2236_project/verify/figure1/ROMM/.0170.txt-Packet latency average = 178.872 (1 samples)
+--
+../../IL2236_project/verify/figure1/ROMM/.0175.txt:====== Overall Traffic Statistics ======
+../../IL2236_project/verify/figure1/ROMM/.0175.txt-====== Traffic class 0 ======
+../../IL2236_project/verify/figure1/ROMM/.0175.txt-Packet latency average = 250.283 (1 samples)
+--
+../../IL2236_project/verify/figure1/ROMM/.0180.txt:====== Overall Traffic Statistics ======
+../../IL2236_project/verify/figure1/ROMM/.0180.txt-====== Traffic class 0 ======
+../../IL2236_project/verify/figure1/ROMM/.0180.txt-Packet latency average = 291.292 (1 samples)

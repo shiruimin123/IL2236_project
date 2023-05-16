@@ -1,0 +1,139 @@
+BEGIN Configuration File: ../../IL2236_project/verify/figure2/MAD/mesh88_lat
+// $Id$
+
+// Copyright (c) 2007-2015, Trustees of The Leland Stanford Junior University
+// All rights reserved.
+//
+// Redistribution and use in source and binary forms, with or without
+// modification, are permitted provided that the following conditions are met:
+//
+// Redistributions of source code must retain the above copyright notice, this
+// list of conditions and the following disclaimer.
+// Redistributions in binary form must reproduce the above copyright notice,
+// this list of conditions and the following disclaimer in the documentation
+// and/or other materials provided with the distribution.
+//
+// THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+// AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+// IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+// ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE
+// LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+// CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+// SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+// INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+// CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+// ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+// POSSIBILITY OF SUCH DAMAGE.
+
+//8X8 mesh with 20 flits per packet under injection mode
+//injection rate here is packet per cycle, NOT flit per cycle
+
+// Topology
+
+topology = mesh;
+k = 8;
+n = 2;
+
+// Routing
+routing_function = min_adapt;
+
+// Flow control
+num_vcs     = 8;
+vc_buf_size = 8;
+wait_for_tail_credit = 1;
+
+// Router architecture
+vc_allocator = islip;
+sw_allocator = islip;
+alloc_iters  = 1;
+
+credit_delay   = 2;
+routing_delay  = 0;
+vc_alloc_delay = 1;
+sw_alloc_delay = 1;
+
+input_speedup     = 2;
+output_speedup    = 1;
+internal_speedup  = 1.0;
+
+
+// Traffic
+traffic = transpose;
+packet_size = 20;
+
+
+// Simulation
+sim_type = latency;
+
+injection_rate = .0200;
+
+
+END Configuration File: ../../IL2236_project/verify/figure2/MAD/mesh88_lat
+Class 0:
+Packet latency average = 175.672
+	minimum = 25
+	maximum = 763
+Network latency average = 136.664
+	minimum = 25
+	maximum = 695
+Slowest packet = 104
+Flit latency average = 81.5951
+	minimum = 6
+	maximum = 767
+Slowest flit = 4982
+Fragmentation average = 62.1708
+	minimum = 0
+	maximum = 216
+Injected packet rate average = 0.0142813
+	minimum = 0.005 (at node 23)
+	maximum = 0.028 (at node 0)
+Accepted packet rate average = 0.0114375
+	minimum = 0.002 (at node 40)
+	maximum = 0.027 (at node 0)
+Injected flit rate average = 0.278547
+	minimum = 0.096 (at node 23)
+	maximum = 0.56 (at node 0)
+Accepted flit rate average= 0.238813
+	minimum = 0.051 (at node 40)
+	maximum = 0.556 (at node 0)
+Injected packet length average = 19.5044
+Accepted packet length average = 20.8798
+Total in-flight flits = 2996 (0 measured)
+latency change    = 1
+throughput change = 1
+Class 0:
+Packet latency average = 299.914
+	minimum = 25
+	maximum = 1590
+Network latency average = 176.659
+	minimum = 25
+	maximum = 1459
+Slowest packet = 239
+Flit latency average = 113.355
+	minimum = 6
+	maximum = 1779
+Slowest flit = 4472
+Fragmentation average = 69.5152
+	minimum = 0
+	maximum = 216
+Injected packet rate average = 0.0132656
+	minimum = 0.0025 (at node 23)
+	maximum = 0.0255 (at node 46)
+Accepted packet rate average = 0.0118594
+	minimum = 0.002 (at node 7)
+	maximum = 0.0255 (at node 53)
+Injected flit rate average = 0.262305
+	minimum = 0.048 (at node 23)
+	maximum = 0.51 (at node 46)
+Accepted flit rate average= 0.242773
+	minimum = 0.04 (at node 7)
+	maximum = 0.51 (at node 53)
+Injected packet length average = 19.7733
+Accepted packet length average = 20.471
+Total in-flight flits = 2885 (0 measured)
+latency change    = 0.414259
+throughput change = 0.0163154
+Average latency for class 0 exceeded 500 cycles. Aborting simulation.
+Too many sample periods needed to converge
+Simulation unstable, ending ...
+Total run time 1.17014

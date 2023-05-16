@@ -1,0 +1,151 @@
+../../IL2236_project/verify/figure1/MAD/.0005.txt:====== Overall Traffic Statistics ======
+../../IL2236_project/verify/figure1/MAD/.0005.txt-====== Traffic class 0 ======
+../../IL2236_project/verify/figure1/MAD/.0005.txt-Packet latency average = 45.9539 (1 samples)
+--
+../../IL2236_project/verify/figure1/MAD/.0010.txt:====== Overall Traffic Statistics ======
+../../IL2236_project/verify/figure1/MAD/.0010.txt-====== Traffic class 0 ======
+../../IL2236_project/verify/figure1/MAD/.0010.txt-Packet latency average = 47.4074 (1 samples)
+--
+../../IL2236_project/verify/figure1/MAD/.0015.txt:====== Overall Traffic Statistics ======
+../../IL2236_project/verify/figure1/MAD/.0015.txt-====== Traffic class 0 ======
+../../IL2236_project/verify/figure1/MAD/.0015.txt-Packet latency average = 47.8543 (1 samples)
+--
+../../IL2236_project/verify/figure1/MAD/.0020.txt:====== Overall Traffic Statistics ======
+../../IL2236_project/verify/figure1/MAD/.0020.txt-====== Traffic class 0 ======
+../../IL2236_project/verify/figure1/MAD/.0020.txt-Packet latency average = 49.1465 (1 samples)
+--
+../../IL2236_project/verify/figure1/MAD/.0025.txt:====== Overall Traffic Statistics ======
+../../IL2236_project/verify/figure1/MAD/.0025.txt-====== Traffic class 0 ======
+../../IL2236_project/verify/figure1/MAD/.0025.txt-Packet latency average = 51.0701 (1 samples)
+--
+../../IL2236_project/verify/figure1/MAD/.0030.txt:====== Overall Traffic Statistics ======
+../../IL2236_project/verify/figure1/MAD/.0030.txt-====== Traffic class 0 ======
+../../IL2236_project/verify/figure1/MAD/.0030.txt-Packet latency average = 51.8264 (1 samples)
+--
+../../IL2236_project/verify/figure1/MAD/.0035.txt:====== Overall Traffic Statistics ======
+../../IL2236_project/verify/figure1/MAD/.0035.txt-====== Traffic class 0 ======
+../../IL2236_project/verify/figure1/MAD/.0035.txt-Packet latency average = 52.8922 (1 samples)
+--
+../../IL2236_project/verify/figure1/MAD/.0040.txt:====== Overall Traffic Statistics ======
+../../IL2236_project/verify/figure1/MAD/.0040.txt-====== Traffic class 0 ======
+../../IL2236_project/verify/figure1/MAD/.0040.txt-Packet latency average = 53.1447 (1 samples)
+--
+../../IL2236_project/verify/figure1/MAD/.0045.txt:====== Overall Traffic Statistics ======
+../../IL2236_project/verify/figure1/MAD/.0045.txt-====== Traffic class 0 ======
+../../IL2236_project/verify/figure1/MAD/.0045.txt-Packet latency average = 55.5389 (1 samples)
+--
+../../IL2236_project/verify/figure1/MAD/.0050.txt:====== Overall Traffic Statistics ======
+../../IL2236_project/verify/figure1/MAD/.0050.txt-====== Traffic class 0 ======
+../../IL2236_project/verify/figure1/MAD/.0050.txt-Packet latency average = 55.9132 (1 samples)
+--
+../../IL2236_project/verify/figure1/MAD/.0055.txt:====== Overall Traffic Statistics ======
+../../IL2236_project/verify/figure1/MAD/.0055.txt-====== Traffic class 0 ======
+../../IL2236_project/verify/figure1/MAD/.0055.txt-Packet latency average = 57.9162 (1 samples)
+--
+../../IL2236_project/verify/figure1/MAD/.0060.txt:====== Overall Traffic Statistics ======
+../../IL2236_project/verify/figure1/MAD/.0060.txt-====== Traffic class 0 ======
+../../IL2236_project/verify/figure1/MAD/.0060.txt-Packet latency average = 59.7146 (1 samples)
+--
+../../IL2236_project/verify/figure1/MAD/.0065.txt:====== Overall Traffic Statistics ======
+../../IL2236_project/verify/figure1/MAD/.0065.txt-====== Traffic class 0 ======
+../../IL2236_project/verify/figure1/MAD/.0065.txt-Packet latency average = 61.9007 (1 samples)
+--
+../../IL2236_project/verify/figure1/MAD/.0070.txt:====== Overall Traffic Statistics ======
+../../IL2236_project/verify/figure1/MAD/.0070.txt-====== Traffic class 0 ======
+../../IL2236_project/verify/figure1/MAD/.0070.txt-Packet latency average = 61.7992 (1 samples)
+--
+../../IL2236_project/verify/figure1/MAD/.0075.txt:====== Overall Traffic Statistics ======
+../../IL2236_project/verify/figure1/MAD/.0075.txt-====== Traffic class 0 ======
+../../IL2236_project/verify/figure1/MAD/.0075.txt-Packet latency average = 64.4609 (1 samples)
+--
+../../IL2236_project/verify/figure1/MAD/.0080.txt:====== Overall Traffic Statistics ======
+../../IL2236_project/verify/figure1/MAD/.0080.txt-====== Traffic class 0 ======
+../../IL2236_project/verify/figure1/MAD/.0080.txt-Packet latency average = 65.5787 (1 samples)
+--
+../../IL2236_project/verify/figure1/MAD/.0085.txt:====== Overall Traffic Statistics ======
+../../IL2236_project/verify/figure1/MAD/.0085.txt-====== Traffic class 0 ======
+../../IL2236_project/verify/figure1/MAD/.0085.txt-Packet latency average = 69.0091 (1 samples)
+--
+../../IL2236_project/verify/figure1/MAD/.0090.txt:====== Overall Traffic Statistics ======
+../../IL2236_project/verify/figure1/MAD/.0090.txt-====== Traffic class 0 ======
+../../IL2236_project/verify/figure1/MAD/.0090.txt-Packet latency average = 71.9671 (1 samples)
+--
+../../IL2236_project/verify/figure1/MAD/.0095.txt:====== Overall Traffic Statistics ======
+../../IL2236_project/verify/figure1/MAD/.0095.txt-====== Traffic class 0 ======
+../../IL2236_project/verify/figure1/MAD/.0095.txt-Packet latency average = 73.8587 (1 samples)
+--
+../../IL2236_project/verify/figure1/MAD/.0100.txt:====== Overall Traffic Statistics ======
+../../IL2236_project/verify/figure1/MAD/.0100.txt-====== Traffic class 0 ======
+../../IL2236_project/verify/figure1/MAD/.0100.txt-Packet latency average = 80.6272 (1 samples)
+--
+../../IL2236_project/verify/figure1/MAD/.0105.txt:====== Overall Traffic Statistics ======
+../../IL2236_project/verify/figure1/MAD/.0105.txt-====== Traffic class 0 ======
+../../IL2236_project/verify/figure1/MAD/.0105.txt-Packet latency average = 79.6919 (1 samples)
+--
+../../IL2236_project/verify/figure1/MAD/.0110.txt:====== Overall Traffic Statistics ======
+../../IL2236_project/verify/figure1/MAD/.0110.txt-====== Traffic class 0 ======
+../../IL2236_project/verify/figure1/MAD/.0110.txt-Packet latency average = 84.5071 (1 samples)
+--
+../../IL2236_project/verify/figure1/MAD/.0115.txt:====== Overall Traffic Statistics ======
+../../IL2236_project/verify/figure1/MAD/.0115.txt-====== Traffic class 0 ======
+../../IL2236_project/verify/figure1/MAD/.0115.txt-Packet latency average = 88.107 (1 samples)
+--
+../../IL2236_project/verify/figure1/MAD/.0120.txt:====== Overall Traffic Statistics ======
+../../IL2236_project/verify/figure1/MAD/.0120.txt-====== Traffic class 0 ======
+../../IL2236_project/verify/figure1/MAD/.0120.txt-Packet latency average = 94.5156 (1 samples)
+--
+../../IL2236_project/verify/figure1/MAD/.0125.txt:====== Overall Traffic Statistics ======
+../../IL2236_project/verify/figure1/MAD/.0125.txt-====== Traffic class 0 ======
+../../IL2236_project/verify/figure1/MAD/.0125.txt-Packet latency average = 100.64 (1 samples)
+--
+../../IL2236_project/verify/figure1/MAD/.0130.txt:====== Overall Traffic Statistics ======
+../../IL2236_project/verify/figure1/MAD/.0130.txt-====== Traffic class 0 ======
+../../IL2236_project/verify/figure1/MAD/.0130.txt-Packet latency average = 105.883 (1 samples)
+--
+../../IL2236_project/verify/figure1/MAD/.0135.txt:====== Overall Traffic Statistics ======
+../../IL2236_project/verify/figure1/MAD/.0135.txt-====== Traffic class 0 ======
+../../IL2236_project/verify/figure1/MAD/.0135.txt-Packet latency average = 106.809 (1 samples)
+--
+../../IL2236_project/verify/figure1/MAD/.0140.txt:====== Overall Traffic Statistics ======
+../../IL2236_project/verify/figure1/MAD/.0140.txt-====== Traffic class 0 ======
+../../IL2236_project/verify/figure1/MAD/.0140.txt-Packet latency average = 109.112 (1 samples)
+--
+../../IL2236_project/verify/figure1/MAD/.0145.txt:====== Overall Traffic Statistics ======
+../../IL2236_project/verify/figure1/MAD/.0145.txt-====== Traffic class 0 ======
+../../IL2236_project/verify/figure1/MAD/.0145.txt-Packet latency average = 137.624 (1 samples)
+--
+../../IL2236_project/verify/figure1/MAD/.0150.txt:====== Overall Traffic Statistics ======
+../../IL2236_project/verify/figure1/MAD/.0150.txt-====== Traffic class 0 ======
+../../IL2236_project/verify/figure1/MAD/.0150.txt-Packet latency average = 140.661 (1 samples)
+--
+../../IL2236_project/verify/figure1/MAD/.0155.txt:====== Overall Traffic Statistics ======
+../../IL2236_project/verify/figure1/MAD/.0155.txt-====== Traffic class 0 ======
+../../IL2236_project/verify/figure1/MAD/.0155.txt-Packet latency average = 136.711 (1 samples)
+--
+../../IL2236_project/verify/figure1/MAD/.0160.txt:====== Overall Traffic Statistics ======
+../../IL2236_project/verify/figure1/MAD/.0160.txt-====== Traffic class 0 ======
+../../IL2236_project/verify/figure1/MAD/.0160.txt-Packet latency average = 166.641 (1 samples)
+--
+../../IL2236_project/verify/figure1/MAD/.0165.txt:====== Overall Traffic Statistics ======
+../../IL2236_project/verify/figure1/MAD/.0165.txt-====== Traffic class 0 ======
+../../IL2236_project/verify/figure1/MAD/.0165.txt-Packet latency average = 185.529 (1 samples)
+--
+../../IL2236_project/verify/figure1/MAD/.0170.txt:====== Overall Traffic Statistics ======
+../../IL2236_project/verify/figure1/MAD/.0170.txt-====== Traffic class 0 ======
+../../IL2236_project/verify/figure1/MAD/.0170.txt-Packet latency average = 192.882 (1 samples)
+--
+../../IL2236_project/verify/figure1/MAD/.0175.txt:====== Overall Traffic Statistics ======
+../../IL2236_project/verify/figure1/MAD/.0175.txt-====== Traffic class 0 ======
+../../IL2236_project/verify/figure1/MAD/.0175.txt-Packet latency average = 236.655 (1 samples)
+--
+../../IL2236_project/verify/figure1/MAD/.0180.txt:====== Overall Traffic Statistics ======
+../../IL2236_project/verify/figure1/MAD/.0180.txt-====== Traffic class 0 ======
+../../IL2236_project/verify/figure1/MAD/.0180.txt-Packet latency average = 223.848 (1 samples)
+--
+../../IL2236_project/verify/figure1/MAD/.0185.txt:====== Overall Traffic Statistics ======
+../../IL2236_project/verify/figure1/MAD/.0185.txt-====== Traffic class 0 ======
+../../IL2236_project/verify/figure1/MAD/.0185.txt-Packet latency average = 333.008 (1 samples)
+--
+../../IL2236_project/verify/figure1/MAD/.0195.txt:====== Overall Traffic Statistics ======
+../../IL2236_project/verify/figure1/MAD/.0195.txt-====== Traffic class 0 ======
+../../IL2236_project/verify/figure1/MAD/.0195.txt-Packet latency average = 434.72 (1 samples)

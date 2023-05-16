@@ -1,0 +1,31 @@
+../../IL2236_project/verify/figure2/dor/.001.txt:====== Overall Traffic Statistics ======
+../../IL2236_project/verify/figure2/dor/.001.txt-====== Traffic class 0 ======
+../../IL2236_project/verify/figure2/dor/.001.txt-Packet latency average = 46.7477 (1 samples)
+--
+../../IL2236_project/verify/figure2/dor/.002.txt:====== Overall Traffic Statistics ======
+../../IL2236_project/verify/figure2/dor/.002.txt-====== Traffic class 0 ======
+../../IL2236_project/verify/figure2/dor/.002.txt-Packet latency average = 48.0048 (1 samples)
+--
+../../IL2236_project/verify/figure2/dor/.003.txt:====== Overall Traffic Statistics ======
+../../IL2236_project/verify/figure2/dor/.003.txt-====== Traffic class 0 ======
+../../IL2236_project/verify/figure2/dor/.003.txt-Packet latency average = 52.6463 (1 samples)
+--
+../../IL2236_project/verify/figure2/dor/.004.txt:====== Overall Traffic Statistics ======
+../../IL2236_project/verify/figure2/dor/.004.txt-====== Traffic class 0 ======
+../../IL2236_project/verify/figure2/dor/.004.txt-Packet latency average = 55.9598 (1 samples)
+--
+../../IL2236_project/verify/figure2/dor/.005.txt:====== Overall Traffic Statistics ======
+../../IL2236_project/verify/figure2/dor/.005.txt-====== Traffic class 0 ======
+../../IL2236_project/verify/figure2/dor/.005.txt-Packet latency average = 62.828 (1 samples)
+--
+../../IL2236_project/verify/figure2/dor/.006.txt:====== Overall Traffic Statistics ======
+../../IL2236_project/verify/figure2/dor/.006.txt-====== Traffic class 0 ======
+../../IL2236_project/verify/figure2/dor/.006.txt-Packet latency average = 72.8325 (1 samples)
+--
+../../IL2236_project/verify/figure2/dor/.007.txt:====== Overall Traffic Statistics ======
+../../IL2236_project/verify/figure2/dor/.007.txt-====== Traffic class 0 ======
+../../IL2236_project/verify/figure2/dor/.007.txt-Packet latency average = 133.808 (1 samples)
+--
+../../IL2236_project/verify/figure2/dor/.008.txt:====== Overall Traffic Statistics ======
+../../IL2236_project/verify/figure2/dor/.008.txt-====== Traffic class 0 ======
+../../IL2236_project/verify/figure2/dor/.008.txt-Packet latency average = 323.009 (1 samples)

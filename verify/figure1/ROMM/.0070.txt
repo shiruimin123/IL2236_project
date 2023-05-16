@@ -326,4 +326,4 @@ Accepted flit rate average = 0.134156 (1 samples)
 Injected packet size average = 19.9732 (1 samples)
 Accepted packet size average = 20.014 (1 samples)
 Hops average = 6.42491 (1 samples)
-Total run time 2.48625
+Total run time 2.45754

@@ -1,0 +1,329 @@
+BEGIN Configuration File: ../../IL2236_project/verify/figure7/48/mesh88_lat
+// $Id$
+
+// Copyright (c) 2007-2015, Trustees of The Leland Stanford Junior University
+// All rights reserved.
+//
+// Redistribution and use in source and binary forms, with or without
+// modification, are permitted provided that the following conditions are met:
+//
+// Redistributions of source code must retain the above copyright notice, this
+// list of conditions and the following disclaimer.
+// Redistributions in binary form must reproduce the above copyright notice,
+// this list of conditions and the following disclaimer in the documentation
+// and/or other materials provided with the distribution.
+//
+// THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+// AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+// IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+// ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE
+// LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+// CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+// SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+// INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+// CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+// ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+// POSSIBILITY OF SUCH DAMAGE.
+
+//8X8 mesh with 20 flits per packet under injection mode
+//injection rate here is packet per cycle, NOT flit per cycle
+
+// Topology
+
+topology = mesh;
+k = 8;
+n = 2;
+
+// Routing
+routing_function = dor;
+
+// Flow control
+num_vcs     = 4;
+vc_buf_size = 8;
+wait_for_tail_credit = 1;
+
+// Router architecture
+vc_allocator = islip;
+sw_allocator = islip;
+alloc_iters  = 1;
+
+credit_delay   = 2;
+routing_delay  = 0;
+vc_alloc_delay = 1;
+sw_alloc_delay = 1;
+
+input_speedup     = 2;
+output_speedup    = 1;
+internal_speedup  = 1.0;
+
+
+// Traffic
+traffic = uniform;
+packet_size = 20;
+
+
+// Simulation
+sim_type = latency;
+
+injection_rate = .0090;
+
+
+END Configuration File: ../../IL2236_project/verify/figure7/48/mesh88_lat
+Class 0:
+Packet latency average = 62.7585
+	minimum = 25
+	maximum = 243
+Network latency average = 59.8377
+	minimum = 25
+	maximum = 225
+Slowest packet = 63
+Flit latency average = 33.1135
+	minimum = 6
+	maximum = 205
+Slowest flit = 1279
+Fragmentation average = 13.7887
+	minimum = 0
+	maximum = 71
+Injected packet rate average = 0.00871875
+	minimum = 0.003 (at node 33)
+	maximum = 0.016 (at node 34)
+Accepted packet rate average = 0.00828125
+	minimum = 0.003 (at node 37)
+	maximum = 0.014 (at node 12)
+Injected flit rate average = 0.172969
+	minimum = 0.06 (at node 33)
+	maximum = 0.32 (at node 34)
+Accepted flit rate average= 0.167156
+	minimum = 0.06 (at node 37)
+	maximum = 0.28 (at node 12)
+Injected packet length average = 19.8387
+Accepted packet length average = 20.1849
+Total in-flight flits = 462 (0 measured)
+latency change    = 1
+throughput change = 1
+Class 0:
+Packet latency average = 63.5891
+	minimum = 25
+	maximum = 243
+Network latency average = 60.6999
+	minimum = 25
+	maximum = 225
+Slowest packet = 63
+Flit latency average = 33.626
+	minimum = 6
+	maximum = 205
+Slowest flit = 1279
+Fragmentation average = 14.3629
+	minimum = 0
+	maximum = 77
+Injected packet rate average = 0.00878125
+	minimum = 0.0035 (at node 29)
+	maximum = 0.0135 (at node 26)
+Accepted packet rate average = 0.00846094
+	minimum = 0.004 (at node 43)
+	maximum = 0.0125 (at node 12)
+Injected flit rate average = 0.174508
+	minimum = 0.07 (at node 29)
+	maximum = 0.27 (at node 26)
+Accepted flit rate average= 0.170867
+	minimum = 0.08 (at node 43)
+	maximum = 0.253 (at node 12)
+Injected packet length average = 19.8728
+Accepted packet length average = 20.1948
+Total in-flight flits = 609 (0 measured)
+latency change    = 0.0130622
+throughput change = 0.0217183
+Class 0:
+Packet latency average = 69.5259
+	minimum = 25
+	maximum = 282
+Network latency average = 65.9649
+	minimum = 25
+	maximum = 268
+Slowest packet = 1138
+Flit latency average = 37.3889
+	minimum = 6
+	maximum = 241
+Slowest flit = 22779
+Fragmentation average = 17.2454
+	minimum = 0
+	maximum = 84
+Injected packet rate average = 0.00926562
+	minimum = 0.003 (at node 16)
+	maximum = 0.017 (at node 32)
+Accepted packet rate average = 0.00935937
+	minimum = 0.003 (at node 7)
+	maximum = 0.018 (at node 49)
+Injected flit rate average = 0.185625
+	minimum = 0.06 (at node 16)
+	maximum = 0.327 (at node 32)
+Accepted flit rate average= 0.186688
+	minimum = 0.06 (at node 7)
+	maximum = 0.358 (at node 49)
+Injected packet length average = 20.0337
+Accepted packet length average = 19.9466
+Total in-flight flits = 521 (0 measured)
+latency change    = 0.0853894
+throughput change = 0.0847422
+Warmed up ...Time used is 3000 cycles
+Class 0:
+Packet latency average = 65.4128
+	minimum = 25
+	maximum = 171
+Network latency average = 62.8837
+	minimum = 25
+	maximum = 171
+Slowest packet = 1764
+Flit latency average = 35.2768
+	minimum = 6
+	maximum = 152
+Slowest flit = 35299
+Fragmentation average = 15.7054
+	minimum = 0
+	maximum = 73
+Injected packet rate average = 0.00901562
+	minimum = 0.001 (at node 53)
+	maximum = 0.022 (at node 31)
+Accepted packet rate average = 0.008875
+	minimum = 0.004 (at node 17)
+	maximum = 0.017 (at node 47)
+Injected flit rate average = 0.180047
+	minimum = 0.02 (at node 53)
+	maximum = 0.44 (at node 31)
+Accepted flit rate average= 0.178547
+	minimum = 0.074 (at node 53)
+	maximum = 0.34 (at node 47)
+Injected packet length average = 19.9705
+Accepted packet length average = 20.118
+Total in-flight flits = 634 (634 measured)
+latency change    = 0.0628795
+throughput change = 0.0455938
+Class 0:
+Packet latency average = 66.0247
+	minimum = 25
+	maximum = 171
+Network latency average = 63.3689
+	minimum = 25
+	maximum = 171
+Slowest packet = 1764
+Flit latency average = 35.4513
+	minimum = 6
+	maximum = 152
+Slowest flit = 35299
+Fragmentation average = 15.968
+	minimum = 0
+	maximum = 74
+Injected packet rate average = 0.00877344
+	minimum = 0.0025 (at node 56)
+	maximum = 0.017 (at node 31)
+Accepted packet rate average = 0.00882812
+	minimum = 0.004 (at node 17)
+	maximum = 0.0125 (at node 7)
+Injected flit rate average = 0.175523
+	minimum = 0.05 (at node 56)
+	maximum = 0.34 (at node 31)
+Accepted flit rate average= 0.176781
+	minimum = 0.08 (at node 17)
+	maximum = 0.25 (at node 7)
+Injected packet length average = 20.0062
+Accepted packet length average = 20.0248
+Total in-flight flits = 353 (353 measured)
+latency change    = 0.00926774
+throughput change = 0.00998763
+Class 0:
+Packet latency average = 64.866
+	minimum = 25
+	maximum = 171
+Network latency average = 62.1475
+	minimum = 25
+	maximum = 171
+Slowest packet = 1764
+Flit latency average = 34.7085
+	minimum = 6
+	maximum = 152
+Slowest flit = 35299
+Fragmentation average = 15.1438
+	minimum = 0
+	maximum = 74
+Injected packet rate average = 0.00866146
+	minimum = 0.00433333 (at node 56)
+	maximum = 0.0126667 (at node 4)
+Accepted packet rate average = 0.00865625
+	minimum = 0.00566667 (at node 17)
+	maximum = 0.0123333 (at node 22)
+Injected flit rate average = 0.173167
+	minimum = 0.084 (at node 56)
+	maximum = 0.253333 (at node 4)
+Accepted flit rate average= 0.173135
+	minimum = 0.113333 (at node 17)
+	maximum = 0.246667 (at node 22)
+Injected packet length average = 19.9928
+Accepted packet length average = 20.0012
+Total in-flight flits = 539 (539 measured)
+latency change    = 0.0178622
+throughput change = 0.0210577
+Class 0:
+Packet latency average = 64.6431
+	minimum = 25
+	maximum = 171
+Network latency average = 62.0072
+	minimum = 25
+	maximum = 171
+Slowest packet = 1764
+Flit latency average = 34.5445
+	minimum = 6
+	maximum = 152
+Slowest flit = 35299
+Fragmentation average = 15.1456
+	minimum = 0
+	maximum = 74
+Injected packet rate average = 0.00877344
+	minimum = 0.00475 (at node 56)
+	maximum = 0.01175 (at node 31)
+Accepted packet rate average = 0.00877344
+	minimum = 0.0055 (at node 15)
+	maximum = 0.0125 (at node 22)
+Injected flit rate average = 0.175348
+	minimum = 0.095 (at node 56)
+	maximum = 0.235 (at node 31)
+Accepted flit rate average= 0.17527
+	minimum = 0.112 (at node 15)
+	maximum = 0.25 (at node 22)
+Injected packet length average = 19.9862
+Accepted packet length average = 19.9773
+Total in-flight flits = 572 (572 measured)
+latency change    = 0.00344759
+throughput change = 0.0121762
+Draining all recorded packets ...
+Draining remaining packets ...
+Time taken is 7199 cycles
+====== Overall Traffic Statistics ======
+====== Traffic class 0 ======
+Packet latency average = 64.7069 (1 samples)
+	minimum = 25 (1 samples)
+	maximum = 171 (1 samples)
+Network latency average = 62.056 (1 samples)
+	minimum = 25 (1 samples)
+	maximum = 171 (1 samples)
+Flit latency average = 34.6566 (1 samples)
+	minimum = 6 (1 samples)
+	maximum = 152 (1 samples)
+Fragmentation average = 15.1486 (1 samples)
+	minimum = 0 (1 samples)
+	maximum = 74 (1 samples)
+Injected packet rate average = 0.00877344 (1 samples)
+	minimum = 0.00475 (1 samples)
+	maximum = 0.01175 (1 samples)
+Accepted packet rate average = 0.00877344 (1 samples)
+	minimum = 0.0055 (1 samples)
+	maximum = 0.0125 (1 samples)
+Injected flit rate average = 0.175348 (1 samples)
+	minimum = 0.095 (1 samples)
+	maximum = 0.235 (1 samples)
+Accepted flit rate average = 0.17527 (1 samples)
+	minimum = 0.112 (1 samples)
+	maximum = 0.25 (1 samples)
+Injected packet size average = 19.9862 (1 samples)
+Accepted packet size average = 19.9773 (1 samples)
+Hops average = 6.28114 (1 samples)
+Total run time 2.74984

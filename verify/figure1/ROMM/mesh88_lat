@@ -64,5 +64,5 @@ packet_size = 20;
 // Simulation
 sim_type = latency;
 
-injection_rate = .044;
+injection_rate = .0200;
 
