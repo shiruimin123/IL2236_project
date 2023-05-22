@@ -117,10 +117,12 @@ Evidently, in the instance of 16 virtual channels and 2 buffers, there's a disti
 **2. Understand the impact of network size on network performance by re-producing Figure
 25.8**
 
-
+![verify for figure25.8](258.png)
 
 **3. Understand the impact of injection processes on network performance by re- producing
 Figure 25.9**
+
+![verify for figure25.9](259.png)
 
 ## 4. (Simulation with BookSim) 
 
