@@ -103,6 +103,8 @@ the five figures, namely, Figure 25.1 and 25.2. 25.3, 25.4, and 25.5.**
 
 **2. Validate the throughput performance by re-producing Figure 23.2**
 
+![verify for figure23.2](232.png)
+
 ### C. Section 25.2, Flow control experiments:
 
 **1. Understand the impact of virtual channel partitionings on network performance by re-
