@@ -143,18 +143,23 @@ Figure 25.9**
 Draw average latency vs. offered traffic graphs, one with queuing latency, and the other
 without queuing latency.**
 
+![verify for figure4A](4A.png)
 
 **B. (Latency histogram) Draw latency histogram when offered traffic is at 30% of network
 capacity for the simulations in A). Please note that the maximum offered traffic is equivalent
 to ideal throughput which you can calculate.**
 
+![verify for figure4B](4B.png)
 
 **C. (Latency distribution) Draw per-node average latency as bar diagram (one bar for one node)
 for the 6x6 mesh and 6x6 torus networks in A).**
 
+![verify for figure4C](4C.png)
 
 **D. (Throughput distribution) Draw per-node throughput as bar diagram (one bar for one node)
 for the 6x6 mesh and 6x6 torus networks in A).**
+
+![verify for figure4D](4D.png)
 
 
 
