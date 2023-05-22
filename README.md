@@ -163,6 +163,11 @@ to ideal throughput which you can calculate.**
 
 ![verify for figure4B](4B.png)
 
+Overall, the absence of queuing latency is significantly reduced for both mesh and torus.
+
+However, for the condition with the same queuing latency, there is no significant difference between the latency of mesh and torus, presumably because the offer traffic is 30%, neither mesh nor torus has reached the saturation point 
+yet。
+
 **C. (Latency distribution) Draw per-node average latency as bar diagram (one bar for one node)
 for the 6x6 mesh and 6x6 torus networks in A).**
 
