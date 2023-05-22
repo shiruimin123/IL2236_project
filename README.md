@@ -132,6 +132,8 @@ Evidently, in the instance of 16 virtual channels and 2 buffers, there's a disti
 
 ![verify for figure25.8](258.png)
 
+This figure shows latency vs. offered traffic curves for four different mesh networks under under uniform traffic. Althogh the figure is  a kind of different from the one in the book, we can still conclude that the fraction of capacity seems to be a function of the radix of the network. That is beacause the radix-4 networks have not saturate unitil 100%, while the radix-8 and radix-16 networks saturate near 75% and 30%, respectively.
+
 **3. Understand the impact of injection processes on network performance by re- producing
 Figure 25.9**
 
