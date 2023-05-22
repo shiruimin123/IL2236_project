@@ -96,4 +96,4 @@ load.
 
 **1. Validate the latency performance of the four algorithms by re-producing at least two of
 the five figures, namely, Figure 25.1 and 25.2. 25.3, 25.4, and 25.5.**
-
+**2. Validate the throughput performance by re-producing Figure 23.2**
