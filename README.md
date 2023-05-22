@@ -99,4 +99,43 @@ the five figures, namely, Figure 25.1 and 25.2. 25.3, 25.4, and 25.5.**
 
 ![verify for figure25.1](251.png)
 
+
+
 **2. Validate the throughput performance by re-producing Figure 23.2**
+
+### C. Section 25.2, Flow control experiments:
+
+**1. Understand the impact of virtual channel partitionings on network performance by re-
+producing Figure 25.7**
+
+![verify for figure25.7](257.png)
+
+**2. Understand the impact of network size on network performance by re-producing Figure
+25.8**
+
+
+
+**3. Understand the impact of injection processes on network performance by re- producing
+Figure 25.9**
+
+## 4. (Simulation with BookSim) 
+
+**A. (Queuing latency vs. network latency) simulate a 6x6 mesh network, a 6x6 torus network.
+Draw average latency vs. offered traffic graphs, one with queuing latency, and the other
+without queuing latency.**
+
+
+**B. (Latency histogram) Draw latency histogram when offered traffic is at 30% of network
+capacity for the simulations in A). Please note that the maximum offered traffic is equivalent
+to ideal throughput which you can calculate.**
+
+
+**C. (Latency distribution) Draw per-node average latency as bar diagram (one bar for one node)
+for the 6x6 mesh and 6x6 torus networks in A).**
+
+
+**D. (Throughput distribution) Draw per-node throughput as bar diagram (one bar for one node)
+for the 6x6 mesh and 6x6 torus networks in A).**
+
+
+
