@@ -2,7 +2,7 @@
 
 ## 1. What problems you can detect from this setup? Why?
 
-Input count&timing shoud be set before the source queue buffer because the waiting time for buffer to enter the networkshould be considered.
+Input count&timing shoud be set before the source queue buffer because the waiting time for buffer to enter the network should be considered.
 
 ## 2. (Performance evaluation) Answer the following questions:
 
@@ -109,6 +109,10 @@ the five figures, namely, Figure 25.1 and 25.2. 25.3, 25.4, and 25.5.**
 producing Figure 25.7**
 
 ![verify for figure25.7](257.png)
+
+Ramping up the count of virtual channels will lead to an elevation in both the allocation time for virtual channels and the throughput in pipelines. As an outcome, the latency beneath saturation tends to escalate with the growth in the number of virtual channels. 
+
+Evidently, in the instance of 16 virtual channels and 2 buffers, there's a distinct zero-load latency. This anomaly stems from our router model incorporating pipelining latencies, causing the buffer's credit loop latency to exceed a single cycle. If the buffer depth isn't large enough to accommodate this latency, the virtual channel's utilization will not peak at 100%, resulting in a stall as it awaits credits.
 
 **2. Understand the impact of network size on network performance by re-producing Figure
 25.8**
