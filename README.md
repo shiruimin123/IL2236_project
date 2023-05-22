@@ -2,7 +2,7 @@
 
 ## 1. What problems you can detect from this setup? Why?
 
-Input count&timing shoud be set before the source queue buffer because the waiting time for buffer to enter the network should be considered.
+Input count&timing shoud be set before the source queue buffer because the waiting time for buffer to enter the network should be considered, so that the packet delay includes the time spent in the source queue.
 
 ## 2. (Performance evaluation) Answer the following questions:
 
@@ -101,9 +101,11 @@ the five figures, namely, Figure 25.1 and 25.2. 25.3, 25.4, and 25.5.**
 
 
 
-**2. Validate the throughput performance by re-producing Figure 23.2**
+**2. Validate the throughput performance by re-producing Figure 23.2.**
 
 ![verify for figure23.2](232.png)
+
+The throughput versus offered traffic for an 8-ary 2-mesh operating under bit-complement traffic using dimension-order routing is presented. The display includes both the average throughput and the minimum throughput across all source-destination pairings. Given that the throughput remains undiminished past the saturation point, it can be inferred that the network maintains its stability.
 
 ### C. Section 25.2, Flow control experiments:
 
