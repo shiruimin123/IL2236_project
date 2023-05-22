@@ -139,6 +139,8 @@ Figure 25.9**
 
 ![verify for figure25.9](259.png)
 
+The prevalent pattern evident in the data is the increase in latency coupled with a decrease in throughput resulting from larger packet sizes. These larger packets are inherently disadvantaged in terms of latency due to their extended serialization overhead. Moreover, the flow control, not being flawless, struggles more in resource utilization as the length of the packets increases.
+
 ## 4. (Simulation with BookSim) 
 
 **A. (Queuing latency vs. network latency) simulate a 6x6 mesh network, a 6x6 torus network.
