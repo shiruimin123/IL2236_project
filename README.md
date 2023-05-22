@@ -149,6 +149,14 @@ without queuing latency.**
 
 ![verify for figure4A](4A.png)
 
+The torus reach the saturation earlier than the mesh with the same size, because the bandwidth doesn’t change much but the offered traffic is more.
+
+There is also a difference that the impact of queueing latency on average latency between torus and mesh network topologies. There seems to be no obvious impact in torus. That could be due to their inherent structural differences.
+
+In a torus network, data can be sent in multiple directions and there are multiple paths to get from one point to another. Therefore, if one path becomes congested (increasing queueing latency), it can significantly impact the average latency of the entire network, as data may need to be rerouted through less optimal paths.
+
+On the other hand, in a mesh network, each node is connected to every other node, providing more direct paths for data transfer. This implies that even if a particular node experiences increased queueing latency, it has a relatively lower impact on the average latency for the entire network, as data can be rerouted through numerous other direct paths.
+
 **B. (Latency histogram) Draw latency histogram when offered traffic is at 30% of network
 capacity for the simulations in A). Please note that the maximum offered traffic is equivalent
 to ideal throughput which you can calculate.**
