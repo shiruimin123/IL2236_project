@@ -101,10 +101,13 @@ Figure 25.1:
 
 ![verify for figure25.1](251.png)
 
+This figure shows the performance of several routing algorithms on an 8-ary 2-mesh under uniform traffic.
+
 Figure 25.2:
 
 ![verify for figure25.2](252.png)
 
+This figure shows the performance of several routing algorithms on an 8-ary 2-mesh under transpose traffic. The latency saturation of MAD is at a lower offered traffic in our experiment, which is  around 0.25.
 
 
 **2. Validate the throughput performance by re-producing Figure 23.2.**
